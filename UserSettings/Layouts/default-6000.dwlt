@@ -8,7 +8,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 507
     height: 941
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 39
+  controlID: 97
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 40
+  controlID: 42
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 43
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -488,7 +488,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animacje
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -498,16 +498,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animacje
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\user\Desktop\gra\My project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 67}
-    m_SelectedIDs: 80e00000
-    m_LastClickedID: 57472
-    m_ExpandedIDs: 000000007ee0000084e0000086e0000000ca9a3b
+    scrollPos: {x: 0, y: 55}
+    m_SelectedIDs: 1caa0000
+    m_LastClickedID: 43548
+    m_ExpandedIDs: 00000000b8a9000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -536,7 +536,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000b8a90000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -635,7 +635,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4650ffff4850ffff3054ffffeee00000
+      m_ExpandedIDs: 6ec6ffff4ed3ffffdcd9ffff66dbffff1efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1239,9 +1239,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 195.2, y: 10.37, z: 206.99265}
+    m_Target: {x: 553.3482, y: 262.05966, z: 187.2831}
     speed: 2
-    m_Value: {x: 195.2, y: 10.37, z: 206.99265}
+    m_Value: {x: 553.3482, y: 262.05966, z: 187.2831}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 24
@@ -1287,13 +1287,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.039616104, y: -0.9558378, z: 0.24845867, w: 0.15239431}
+    m_Target: {x: -0.002243104, y: -0.99602336, z: -0.08606003, w: 0.026007883}
     speed: 2
-    m_Value: {x: 0.039613117, y: -0.95576566, z: 0.24843992, w: 0.1523828}
+    m_Value: {x: -0.0022429356, y: -0.99594855, z: -0.08605357, w: 0.02600593}
   m_Size:
-    m_Target: 14.956155
+    m_Target: 222.43481
     speed: 2
-    m_Value: 14.956155
+    m_Value: 222.43481
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1445,7 +1445,7 @@ MonoBehaviour:
       y: 21
       width: 1096
       height: 595
-    m_Scale: {x: 1.2337191, y: 1.2337191}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 548, y: 297.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1453,10 +1453,10 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -444.1854
-      y: -241.1408
-      width: 888.3708
-      height: 482.2816
+      x: -548
+      y: -297.5
+      width: 1096
+      height: 595
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1096, y: 616}

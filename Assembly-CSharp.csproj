@@ -66,7 +66,9 @@
     <Compile Include="Assets\Scripts\Gracz.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Strzelanie.cs" />
+    <Compile Include="Assets\Scripts\SceneSettings.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\OpcjeManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
