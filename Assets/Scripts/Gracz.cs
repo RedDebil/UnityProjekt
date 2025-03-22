@@ -8,7 +8,7 @@ public class Gracz : MonoBehaviour
     public Strzelanie strzelanie;
     public Unik unik;
     public Animator animator;
-
+    public float zasiegUnik = 1.5f;
     void Update()
     {
         if (!unik.czyUnika)
@@ -16,15 +16,19 @@ public class Gracz : MonoBehaviour
             float ruchPoziomo = Input.GetAxis("Horizontal");
             float ruchPionowy = Input.GetAxis("Vertical");
 
-            Vector3 ruch = new Vector3(ruchPoziomo, 0.0f, ruchPionowy);
+            Vector3 ruch = new Vector3(ruchPoziomo, 0, ruchPionowy);
 
-            bool bieg = (ruch.magnitude > 0);
-            bool strzela = true;
+            bool poruszaSie = (ruch.magnitude > 0f);
 
-            animator.SetBool("run", bieg);
+            float dot = Vector3.Dot(ruch.normalized, transform.forward);
 
-            strzela = false;
-            animator.SetBool("shoot", strzela);
+            bool biegPrzod = poruszaSie && (dot >= 0f);
+            bool biegTyl = poruszaSie && (dot < 0f);
+
+            animator.SetBool("run", biegPrzod);
+            animator.SetBool("biegTyl", biegTyl);
+
+            animator.SetBool("shoot", false);
 
             transform.Translate(ruch * szybkoscGracza * Time.deltaTime, Space.World);
 
@@ -64,4 +68,16 @@ public class Gracz : MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, docelowyObrot, szybkoscObrotu * Time.deltaTime);
         }
     }
+
+    void OnAnimatorMove()
+    {
+        Vector3 aktualnaPozycja = animator.deltaPosition;
+
+        transform.position += aktualnaPozycja * zasiegUnik;
+
+        transform.rotation *= animator.deltaRotation;
+    }
+
+
+
 }

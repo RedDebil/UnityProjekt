@@ -39,4 +39,5 @@ public class Unik : MonoBehaviour
         czyUnika = false;
         animator.SetBool("rollo", czyUnika);
     }
+
 }
