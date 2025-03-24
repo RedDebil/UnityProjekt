@@ -20,34 +20,65 @@ public class Gracz : MonoBehaviour
 
             bool poruszaSie = (ruch.magnitude > 0f);
 
-            float dot = Vector3.Dot(ruch.normalized, transform.forward);
+            bool biegPrzod = false;
+            bool biegTyl = false;
+            bool biegLewo = false;
+            bool biegPrawo = false;
 
-            bool biegPrzod = poruszaSie && (dot >= 0f);
-            bool biegTyl = poruszaSie && (dot < 0f);
+            if (poruszaSie)
+            {
+                Vector3 ruchZnormalizowany = ruch.normalized;
 
-            animator.SetBool("run", biegPrzod);
+                float dotPrzod = Vector3.Dot(ruchZnormalizowany, transform.forward);
+                float dotPrawo = Vector3.Dot(ruchZnormalizowany, transform.right);
+
+                //float prog = 0.1f;
+
+                if (Mathf.Abs(dotPrzod) > Mathf.Abs(dotPrawo) /*+ prog*/)
+                {
+
+                    if (dotPrzod >= 0f)
+                        biegPrzod = true;
+                    else
+                        biegTyl = true;
+                }
+                else
+                {
+                    if (dotPrawo >= 0f)
+                        biegPrawo = true;
+                    else
+                        biegLewo = true;
+                }
+                //Debug.Log("dotPrzod"+Mathf.Abs(dotPrzod));
+                //Debug.Log("dotPrawo" + Mathf.Abs(dotPrawo));
+            }
+
+            animator.SetBool("biegPrzod", biegPrzod);
             animator.SetBool("biegTyl", biegTyl);
-
-            animator.SetBool("shoot", false);
+            animator.SetBool("biegLewo", biegLewo);
+            animator.SetBool("biegPrawo", biegPrawo);
 
             transform.Translate(ruch * szybkoscGracza * Time.deltaTime, Space.World);
 
-            ObrotdoKursora();
-            
-        }
+            animator.SetBool("shoot", false);
 
-        if(Input.GetMouseButton(0))
-        {
-            bool strzela = true;
-            strzelanie.Strzal();
-            animator.SetBool("shoot",strzela);
+            ObrotdoKursora();
+
+
+            if (Input.GetMouseButton(0))
+            {
+                animator.SetBool("shoot", true);
+                strzelanie.Strzal();
+            }
         }
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
             unik.Unikanie();
-            bool bieg = false;
-            animator.SetBool("run", bieg);
+            animator.SetBool("biegPrzod", false);
+            animator.SetBool("biegTyl", false);
+            animator.SetBool("biegLewo", false);
+            animator.SetBool("biegPrawo", false);
         }
     }
 
