@@ -1,0 +1,1986 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.42f1 (feb9a7235030) revision 16693671'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'pl' Physical Memory: 32672 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\UnityEditor\6000.0.42f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+F:/UnityProjekt/gierka
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+58461
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: F:/UnityProjekt/gierka
+F:/UnityProjekt/gierka
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24812]  Target information:
+
+Player connection [24812]  * "[IP] 192.168.0.227 [Port] 0 [Flags] 2 [Guid] 4028832583 [EditorId] 4028832583 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CDVDTLR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24812]  * "[IP] 26.139.254.124 [Port] 0 [Flags] 2 [Guid] 4028832583 [EditorId] 4028832583 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CDVDTLR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24812]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4028832583 [EditorId] 4028832583 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CDVDTLR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24812] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24812] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.42f1 (feb9a7235030)
+[Subsystems] Discovering subsystems at path F:/UnityEditor/6000.0.42f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/UnityProjekt/gierka/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'F:/UnityEditor/6000.0.42f1/Editor/Data/Managed'
+Mono path[1] = 'F:/UnityEditor/6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/UnityEditor/6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/UnityEditor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003203 seconds.
+- Loaded All Assemblies, in  0.316 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.245 seconds
+Domain Reload Profiling: 561ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (132ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (97ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (246ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (213ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.583 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.588 seconds
+Domain Reload Profiling: 1170ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (118ms)
+			BuildScriptInfoCaches (36ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (459ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6054 unused Assets / (4.4 MB). Loaded Objects now: 6765.
+Memory consumption went from 165.6 MB to 161.3 MB.
+Total: 6.961100 ms (FindLiveObjects: 0.888000 ms CreateObjectMapping: 0.439500 ms MarkObjects: 4.051500 ms  DeleteObjects: 1.581400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8398.797058 seconds.
+  path: Assets/Animacje
+  artifactKey: Guid(201cd8d3eb0f1754999028c49b21a93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animacje using Guid(201cd8d3eb0f1754999028c49b21a93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec53c5e37887c4356816f5d9ec77c850') in 0.0045538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070021 seconds.
+  path: Assets/Animacje/Dive Roll (2).fbx
+  artifactKey: Guid(2d6fe1a444d42ca409cda7de147a25ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animacje/Dive Roll (2).fbx using Guid(2d6fe1a444d42ca409cda7de147a25ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '757c5a09a914e5d7fc2721fdfe937ec2') in 0.4252557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 122
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.418224 seconds.
+  path: Assets/Material
+  artifactKey: Guid(a736a2ef25fd567469783b10a402e565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material using Guid(a736a2ef25fd567469783b10a402e565) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44324e035276709a66214cabc013aae0') in 0.0004216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.141346 seconds.
+  path: Assets/Material/New Material.mat
+  artifactKey: Guid(8f7491d1a13d8b047b8b49e2cc792f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/New Material.mat using Guid(8f7491d1a13d8b047b8b49e2cc792f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d1a8596a45605a694fe69491c4da456') in 0.0303465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.924981 seconds.
+  path: Assets/PolygonCharacters-Labourer
+  artifactKey: Guid(65d394159e6b0ca4da8e9fbec9ee6b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCharacters-Labourer using Guid(65d394159e6b0ca4da8e9fbec9ee6b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78bad6e431f735a974e15e2ab4d39e19') in 0.0004272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.489864 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(acc55e0888ee3e9409a8996494e13a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(acc55e0888ee3e9409a8996494e13a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3291354b6dfd93902612f4e3cb1271de') in 0.0004047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.857257 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '441aa3e92cda27c68af8a1706ee847ab') in 0.0004453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.829907 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd0ce3b9fb2b0078fcd59af112aef3b6') in 0.0004339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.074043 seconds.
+  path: Assets/Stylize Water Texture
+  artifactKey: Guid(a138852cc92597646b7b20c248751689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture using Guid(a138852cc92597646b7b20c248751689) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96de6784da2bc2af46c77e16a89ce200') in 0.0004019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.718873 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4b47d252bc4e8d77fd6334abcf5e3e8') in 0.0004138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.592908 seconds.
+  path: Assets/Stylize Water Texture/Materials/Stylize Water.mat
+  artifactKey: Guid(c6d38711520119c4e89ddf1ea6adc007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Materials/Stylize Water.mat using Guid(c6d38711520119c4e89ddf1ea6adc007) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '450c9691664beb94a9024bbb02b09302') in 0.0244478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Stylize Water Texture/Materials/Stylize_Grass_diffuse.mat
+  artifactKey: Guid(516e6f11e8de6624eb6be4bac8c14555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Materials/Stylize_Grass_diffuse.mat using Guid(516e6f11e8de6624eb6be4bac8c14555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59543f7167f5e33d0ce5e38f76cea218') in 0.0082911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.055112 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_42_1_Ambient_Occlusion.png
+  artifactKey: Guid(33ba5140ff8350742a9be1b79eeefd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Textures/Vol_42_1_Ambient_Occlusion.png using Guid(33ba5140ff8350742a9be1b79eeefd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f07da8d503edb2e67f3f89e745a855df') in 0.0224956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_42_1_Height.png
+  artifactKey: Guid(c24c005cb31b0514a85361709b63fa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Textures/Vol_42_1_Height.png using Guid(c24c005cb31b0514a85361709b63fa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59cab028d6fb7b635d87674bbe3bf8da') in 0.0072876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_42_1_Normal.png
+  artifactKey: Guid(9e91cd5bde426714d9f0ef165f143d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Textures/Vol_42_1_Normal.png using Guid(9e91cd5bde426714d9f0ef165f143d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5b10921e934dec9fe61ff88a6f5177d') in 0.0130018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.613 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.642 seconds
+Domain Reload Profiling: 1257ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (642ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (471ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6051 unused Assets / (4.4 MB). Loaded Objects now: 6855.
+Memory consumption went from 157.7 MB to 153.3 MB.
+Total: 7.403400 ms (FindLiveObjects: 0.689000 ms CreateObjectMapping: 0.414700 ms MarkObjects: 4.382400 ms  DeleteObjects: 1.916500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.584 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.626 seconds
+Domain Reload Profiling: 1212ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (627ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (474ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6050 unused Assets / (4.2 MB). Loaded Objects now: 6858.
+Memory consumption went from 155.9 MB to 151.7 MB.
+Total: 7.592300 ms (FindLiveObjects: 0.622700 ms CreateObjectMapping: 0.476000 ms MarkObjects: 4.568900 ms  DeleteObjects: 1.923800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1604.638225 seconds.
+  path: Assets/russian_buildings
+  artifactKey: Guid(1e302e5f79059c14bb044e774b3d706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings using Guid(1e302e5f79059c14bb044e774b3d706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab740509852ae4c42c78194b5e543de9') in 0.0118832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 326.164474 seconds.
+  path: Assets/Whaleride
+  artifactKey: Guid(ea343762ac5b62b40b6554ea94296da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Whaleride using Guid(ea343762ac5b62b40b6554ea94296da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c1b1cec2d05e133941912f70a1330ff') in 0.0005064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.756065 seconds.
+  path: Assets/Whaleride/Hand Painted Rocks Road (Blocky)
+  artifactKey: Guid(05771b9f07050484bb2de6b094aa8f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Whaleride/Hand Painted Rocks Road (Blocky) using Guid(05771b9f07050484bb2de6b094aa8f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e90e62fe0edd901f84b8ae4935f6c00') in 0.0004541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045664 seconds.
+  path: Assets/Whaleride/Hand Painted Rocks Road (Blocky)/Hand Painted Rocks Road (Blocky).mat
+  artifactKey: Guid(265c1517f551bbb4db1a48e2201a96f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Whaleride/Hand Painted Rocks Road (Blocky)/Hand Painted Rocks Road (Blocky).mat using Guid(265c1517f551bbb4db1a48e2201a96f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f497f46de61d7a8880a64224f08fb59c') in 0.356633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.630 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling: 1249ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6050 unused Assets / (4.3 MB). Loaded Objects now: 6881.
+Memory consumption went from 160.2 MB to 155.9 MB.
+Total: 7.873400 ms (FindLiveObjects: 0.671900 ms CreateObjectMapping: 0.594800 ms MarkObjects: 4.267800 ms  DeleteObjects: 2.337900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 225.514994 seconds.
+  path: Assets/TerrainData_0ec91a46-0a06-4b8a-82f7-1518a3cd3cb3.asset
+  artifactKey: Guid(c6d0814237b738049938050d7570689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_0ec91a46-0a06-4b8a-82f7-1518a3cd3cb3.asset using Guid(c6d0814237b738049938050d7570689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e2b2d89c7d3ef73f501fa865903033e') in 0.0265637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_9bfd0b15-80d0-492e-8e75-c49bba4cdc52.asset
+  artifactKey: Guid(6510bf142e23b264c8990d16806799fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_9bfd0b15-80d0-492e-8e75-c49bba4cdc52.asset using Guid(6510bf142e23b264c8990d16806799fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03d284528290025e66fbe38a8f3c03c9') in 0.0034155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TerrainData_2296fbd9-d4bd-4269-a1f3-ae8c7c1fce02.asset
+  artifactKey: Guid(6795bd442c10ad8469f4b7de39cce92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_2296fbd9-d4bd-4269-a1f3-ae8c7c1fce02.asset using Guid(6795bd442c10ad8469f4b7de39cce92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a753a5981613f303c977bb9edcf7e99') in 0.0035666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_99354d55-035d-4c7e-900a-38654f22bc85.asset
+  artifactKey: Guid(b16b216976f69d8448da04f5239d4bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_99354d55-035d-4c7e-900a-38654f22bc85.asset using Guid(b16b216976f69d8448da04f5239d4bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74b7a807c058b34cf4cfde37dccf1ddb') in 0.0037793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainData_8efef2fe-6b59-4bbf-91b2-14061b981678.asset
+  artifactKey: Guid(3434b5f7dcc23a64fa2e7686c6ea8b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_8efef2fe-6b59-4bbf-91b2-14061b981678.asset using Guid(3434b5f7dcc23a64fa2e7686c6ea8b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35d408661e6a2d435dd66d919a772d3e') in 0.0034509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TerrainData_76d5f006-bf20-4458-8234-9cb01c69e4e7.asset
+  artifactKey: Guid(b1b964b4692de534eab9d61101189549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_76d5f006-bf20-4458-8234-9cb01c69e4e7.asset using Guid(b1b964b4692de534eab9d61101189549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b331011ce9e32fb03738f39783ac3009') in 0.0037921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TerrainData_756e6aae-0d30-457b-a79b-fca07bb0f635.asset
+  artifactKey: Guid(cd9601ae1b8ab0e43a4132466fcb26de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_756e6aae-0d30-457b-a79b-fca07bb0f635.asset using Guid(cd9601ae1b8ab0e43a4132466fcb26de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '461f4bfe2d547c1966be2382842bfd6c') in 0.0034686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TerrainData_b810ded4-e225-440e-9c5f-04f7d3cbe9aa.asset
+  artifactKey: Guid(765f5ece8db31f94daf3d6f867a55661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_b810ded4-e225-440e-9c5f-04f7d3cbe9aa.asset using Guid(765f5ece8db31f94daf3d6f867a55661) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bff5f43a5c2b5ab8689f23a59ea68da') in 0.0036401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.616 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.634 seconds
+Domain Reload Profiling: 1251ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (137ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (634ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (472ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6050 unused Assets / (4.4 MB). Loaded Objects now: 6884.
+Memory consumption went from 160.1 MB to 155.7 MB.
+Total: 6.847700 ms (FindLiveObjects: 0.615500 ms CreateObjectMapping: 0.354500 ms MarkObjects: 4.056500 ms  DeleteObjects: 1.820300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.593 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path F:\UnityProjekt\gierka\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <aa1f86fad227490683863fb0d0f47a12>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@68167b505d2b/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@68167b505d2b/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.627 seconds
+Domain Reload Profiling: 1222ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (627ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6050 unused Assets / (4.2 MB). Loaded Objects now: 6887.
+Memory consumption went from 160.1 MB to 155.8 MB.
+Total: 7.574800 ms (FindLiveObjects: 0.836000 ms CreateObjectMapping: 0.564100 ms MarkObjects: 4.365000 ms  DeleteObjects: 1.808900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 57.694542 seconds.
+  path: Assets/Scenes/Poziom01.unity
+  artifactKey: Guid(ad221d781da2f1445842e0d1397ce4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Poziom01.unity using Guid(ad221d781da2f1445842e0d1397ce4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6386faa01ca252e6819ff6d6c5e1410d') in 0.0097735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.588 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path F:\UnityProjekt\gierka\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <aa1f86fad227490683863fb0d0f47a12>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@68167b505d2b/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@68167b505d2b/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.646 seconds
+Domain Reload Profiling: 1236ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (646ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6050 unused Assets / (4.1 MB). Loaded Objects now: 6890.
+Memory consumption went from 160.1 MB to 156.0 MB.
+Total: 6.816700 ms (FindLiveObjects: 0.573100 ms CreateObjectMapping: 0.316100 ms MarkObjects: 4.252900 ms  DeleteObjects: 1.673900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.593 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path F:\UnityProjekt\gierka\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <aa1f86fad227490683863fb0d0f47a12>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.608 seconds
+Domain Reload Profiling: 1202ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (448ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6050 unused Assets / (4.2 MB). Loaded Objects now: 6893.
+Memory consumption went from 160.1 MB to 155.8 MB.
+Total: 6.466900 ms (FindLiveObjects: 0.607000 ms CreateObjectMapping: 0.360200 ms MarkObjects: 3.851400 ms  DeleteObjects: 1.647800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 114.664675 seconds.
+  path: Assets/Scenes/Poziom01.unity
+  artifactKey: Guid(ad221d781da2f1445842e0d1397ce4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Poziom01.unity using Guid(ad221d781da2f1445842e0d1397ce4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9307a70024e36da9f196038c3067f4f5') in 0.0094902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.677961 seconds.
+  path: Assets/russian_buildings/materials
+  artifactKey: Guid(75bb1589da5fd75409a48fbdfb6e4a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/materials using Guid(75bb1589da5fd75409a48fbdfb6e4a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5faccdaa396bd27f4221d60b95f3c8e4') in 0.0004458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114737 seconds.
+  path: Assets/russian_buildings/materials/rus_build_lod_01.mat
+  artifactKey: Guid(00773ef69a2a81f4fab18033027a6b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/materials/rus_build_lod_01.mat using Guid(00773ef69a2a81f4fab18033027a6b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4f814a6dabeeccff2d1d5d495cd0bab') in 0.3808393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/russian_buildings/materials/rus_build_lod_03.mat
+  artifactKey: Guid(f585e1d7a595b4947a606c5217360c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/materials/rus_build_lod_03.mat using Guid(f585e1d7a595b4947a606c5217360c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9d76947135c54dce7abe74c4fe681ee') in 0.0080868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.450794 seconds.
+  path: Assets/russian_buildings/scenes
+  artifactKey: Guid(60ede3029a9836e4f874a38f99973bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/scenes using Guid(60ede3029a9836e4f874a38f99973bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c01d3c632602cfb283febc14fdd6d55a') in 0.0005067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.504433 seconds.
+  path: Assets/russian_buildings/scenes/betontexture.jpg
+  artifactKey: Guid(0a5be8e9fa1ac2941ada1fe04091b4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/scenes/betontexture.jpg using Guid(0a5be8e9fa1ac2941ada1fe04091b4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bd71b5c619f575facad5c19d0664612') in 0.0128323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.032919 seconds.
+  path: Assets/russian_buildings/meshes
+  artifactKey: Guid(2f411b68268be5344a8e5f73c122c070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes using Guid(2f411b68268be5344a8e5f73c122c070) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24e1e540436e70d529f707ff1ba4a3a1') in 0.0004874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.963537 seconds.
+  path: Assets/russian_buildings/meshes/buildings_col
+  artifactKey: Guid(fd7f7b1d4c709b74cbc599ecf28cbac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_col using Guid(fd7f7b1d4c709b74cbc599ecf28cbac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02fcad6ced59d67b78c1c5664a721f37') in 0.0004299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075787 seconds.
+  path: Assets/russian_buildings/meshes/buildings_col/rus_build_2et_roof_col.obj
+  artifactKey: Guid(b6239b2aa98add74298b494b5e04d79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_col/rus_build_2et_roof_col.obj using Guid(b6239b2aa98add74298b494b5e04d79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4789fe364ae334277b328d960cde5fa') in 0.042439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/russian_buildings/meshes/buildings_col/rus_build_5et_roof_col_04.obj
+  artifactKey: Guid(8fc3a33f7a1c4604fbd6ac600c46d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_col/rus_build_5et_roof_col_04.obj using Guid(8fc3a33f7a1c4604fbd6ac600c46d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb023932bcaab6442b40acc4aeff2bfe') in 0.0125788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/russian_buildings/meshes/buildings_col/rus_build_5et_roof_col_01.obj
+  artifactKey: Guid(2db71832e28ae7d448154b0b3412d5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_col/rus_build_5et_roof_col_01.obj using Guid(2db71832e28ae7d448154b0b3412d5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1348d79191d6dfd156def82174dc653') in 0.0118626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/russian_buildings/meshes/buildings_col/rus_build_5et_roof_col_02.obj
+  artifactKey: Guid(956b56498616a9548ba1cb8c2f30ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_col/rus_build_5et_roof_col_02.obj using Guid(956b56498616a9548ba1cb8c2f30ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa352a5ec3db6a53a708f2cbeda1828b') in 0.0119243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.797185 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low
+  artifactKey: Guid(dba98005c9f313c4dbaaac2271fee9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low using Guid(dba98005c9f313c4dbaaac2271fee9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c0d0689f8ebba0e0470b0bb9170f2e8') in 0.0004893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052257 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01_LOD1.obj
+  artifactKey: Guid(dfac9b544c7485f41b929d61e9c3df14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01_LOD1.obj using Guid(dfac9b544c7485f41b929d61e9c3df14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6445a44f23666b5496f8d751482f5a24') in 0.0136358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03b_LOD1.obj
+  artifactKey: Guid(24df0ddfce8087a43b3ab9ca0cf5717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03b_LOD1.obj using Guid(24df0ddfce8087a43b3ab9ca0cf5717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7804b7fbfb928327488ed45c965f95a8') in 0.0148124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03b_LOD1.obj
+  artifactKey: Guid(ddecc40229b3b5e4cb200e1225bb5fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03b_LOD1.obj using Guid(ddecc40229b3b5e4cb200e1225bb5fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '361c573ad428a310de535b973f3ce69b') in 0.0138255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01c_LOD1.obj
+  artifactKey: Guid(24c8d1728b53c8547b79d8b69ce152ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01c_LOD1.obj using Guid(24c8d1728b53c8547b79d8b69ce152ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49521e2d9ca1626d37800e2ab97e0a85') in 0.0132709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03c_LOD2.obj
+  artifactKey: Guid(43fd8e64af05c8d468a14c72a49a5b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03c_LOD2.obj using Guid(43fd8e64af05c8d468a14c72a49a5b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed0e045ac77c5f47b4bcf999967ebd97') in 0.0133138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03b_LOD2.obj
+  artifactKey: Guid(1ccd7ad5182f5784aad8fc301f82a5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03b_LOD2.obj using Guid(1ccd7ad5182f5784aad8fc301f82a5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66969c256088e9c394c0ab5511f5edc2') in 0.0179025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03_LOD2.obj
+  artifactKey: Guid(3b3243e4de2da6a4ba8b8ed1da9dd9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03_LOD2.obj using Guid(3b3243e4de2da6a4ba8b8ed1da9dd9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89659d8aa5d014b2eb07dc2f9886ed4f') in 0.0143395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_06_LOD2.obj
+  artifactKey: Guid(39a97d8f22e58e24993fbdfc75a6b1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_06_LOD2.obj using Guid(39a97d8f22e58e24993fbdfc75a6b1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d618c3e971ea82c010dbebcb70b8943') in 0.0136737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_4et_01a_LOD2.obj
+  artifactKey: Guid(df323464610331c46a38e985cc345ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_4et_01a_LOD2.obj using Guid(df323464610331c46a38e985cc345ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6bd9073ef193b4dd9171994a20d5b41') in 0.0153999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_04_LOD1.obj
+  artifactKey: Guid(0a0b2aafcc03dd64c9797459b418dcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_04_LOD1.obj using Guid(0a0b2aafcc03dd64c9797459b418dcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62101c097653824d1613937c40686e5f') in 0.0148902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_04_LOD2.obj
+  artifactKey: Guid(d21dbc8848b6fd64fa5b4826b01703e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_04_LOD2.obj using Guid(d21dbc8848b6fd64fa5b4826b01703e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18992c57fc4a01e36559f7bd1cf44f7e') in 0.014153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01b_LOD1.obj
+  artifactKey: Guid(6e66fb99c3979dd4999fb445d41b976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01b_LOD1.obj using Guid(6e66fb99c3979dd4999fb445d41b976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ca483538ff1e8a5834994f9de87ca63') in 0.0135114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02a_LOD2.obj
+  artifactKey: Guid(e0947e31927c5694b99a506ef71eab31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02a_LOD2.obj using Guid(e0947e31927c5694b99a506ef71eab31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a32ccca85a6925d105e51e832b9f54e') in 0.0122724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03e_LOD1.obj
+  artifactKey: Guid(56a0aeb8365804a4b875b04673476ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03e_LOD1.obj using Guid(56a0aeb8365804a4b875b04673476ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26f9ce850406663e7e7d83330d549c92') in 0.012054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03f_LOD2.obj
+  artifactKey: Guid(56c2b4edeb866a946aadd3f056435322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03f_LOD2.obj using Guid(56c2b4edeb866a946aadd3f056435322) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4391618a7018d23b87ca66a01aab9eb') in 0.0140123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_4et_01_LOD2.obj
+  artifactKey: Guid(cc31e9655c0f7c54d8b562abffc4bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_4et_01_LOD2.obj using Guid(cc31e9655c0f7c54d8b562abffc4bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ec6163ca62a37355b375c974b026325') in 0.0157781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02_LOD1.obj
+  artifactKey: Guid(ce0cbc13af79ff04b9049e00b4347037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02_LOD1.obj using Guid(ce0cbc13af79ff04b9049e00b4347037) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbb51fa833abb40ac6f00c3cbb942899') in 0.0122187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03a_LOD2.obj
+  artifactKey: Guid(d6b92dfb94dd61a46a1fd208fc92c563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03a_LOD2.obj using Guid(d6b92dfb94dd61a46a1fd208fc92c563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f9d5e2a491a1f6ed8449f6cb09f12d2') in 0.0135237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_05_LOD2.obj
+  artifactKey: Guid(6d5fc8075cb1fd64aa5e4a629ee5e5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_05_LOD2.obj using Guid(6d5fc8075cb1fd64aa5e4a629ee5e5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c70bee4801ea71e6e4ef2cbb0114b242') in 0.0140984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_06_LOD1.obj
+  artifactKey: Guid(8dcbdced04317b54ba8864c2ba39450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_06_LOD1.obj using Guid(8dcbdced04317b54ba8864c2ba39450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7dd84392babf59e1cf7a05b7605aee2') in 0.0168417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03a_LOD1.obj
+  artifactKey: Guid(7014b73a36c003d4e9be681a53b42469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03a_LOD1.obj using Guid(7014b73a36c003d4e9be681a53b42469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aff521a1e80f3a703ad319a1a25b27e') in 0.0125289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02b_LOD2.obj
+  artifactKey: Guid(f9e49ac4881dec14d8d0b85e809a0477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02b_LOD2.obj using Guid(f9e49ac4881dec14d8d0b85e809a0477) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '377c8d16a610b57ad07feb0a6b8b0645') in 0.0116662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_01a_LOD1.obj
+  artifactKey: Guid(152070c3a535f614998b3eee93d7918f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_01a_LOD1.obj using Guid(152070c3a535f614998b3eee93d7918f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bd9e29c1f2cf7df24f7dbd61e7ad71a') in 0.015704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.126212 seconds.
+  path: Assets/russian_buildings/textures
+  artifactKey: Guid(efc8a5f50bfd2b3478f7e75c0fbe2625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/textures using Guid(efc8a5f50bfd2b3478f7e75c0fbe2625) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5013a5e8c32380665fd2758531b2ca96') in 0.0004899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042621 seconds.
+  path: Assets/russian_buildings/textures/rus_build_LOD_01.png
+  artifactKey: Guid(027ee668c37651046b8fcc1de158d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/textures/rus_build_LOD_01.png using Guid(027ee668c37651046b8fcc1de158d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'def8c4a810a64e0a8343b086721f8b96') in 0.006581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/russian_buildings/textures/rus_build_LOD_03.png
+  artifactKey: Guid(efce089419136f94492f8f54bf755a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/textures/rus_build_LOD_03.png using Guid(efce089419136f94492f8f54bf755a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a8d55096ec0e7b6353cf5612f917f47') in 0.0064392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.302099 seconds.
+  path: Assets/russian_buildings/prefabs
+  artifactKey: Guid(01bc710caa16f6a479f2d85549110a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs using Guid(01bc710caa16f6a479f2d85549110a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a155b0269d668229b5016c4d74b7ce1d') in 0.0005352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 205.139559 seconds.
+  path: Assets/Whaleride/Hand Painted Rocks Road (Blocky)/Hand Painted Rocks Road (Blocky).mat
+  artifactKey: Guid(265c1517f551bbb4db1a48e2201a96f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Whaleride/Hand Painted Rocks Road (Blocky)/Hand Painted Rocks Road (Blocky).mat using Guid(265c1517f551bbb4db1a48e2201a96f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed68c9bc7e566b2dbceb2ede2e75344b') in 1.6337572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.828353 seconds.
+  path: Assets/TerrainData_f737aa27-c49d-493e-b914-1440bb3b2793.asset
+  artifactKey: Guid(24fc07f39f700c94881bf9c841f8eb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_f737aa27-c49d-493e-b914-1440bb3b2793.asset using Guid(24fc07f39f700c94881bf9c841f8eb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4445cd50431fa3e7cb031997d44ae98') in 0.0046478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.635 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.608 seconds
+Domain Reload Profiling: 1245ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (609ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (446ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6051 unused Assets / (4.6 MB). Loaded Objects now: 6916.
+Memory consumption went from 164.4 MB to 159.8 MB.
+Total: 8.365100 ms (FindLiveObjects: 0.587000 ms CreateObjectMapping: 0.286700 ms MarkObjects: 5.406000 ms  DeleteObjects: 2.084500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.601 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.648 seconds
+Domain Reload Profiling: 1250ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (310ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (648ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (480ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6050 unused Assets / (4.4 MB). Loaded Objects now: 6919.
+Memory consumption went from 164.3 MB to 159.9 MB.
+Total: 7.999600 ms (FindLiveObjects: 0.620000 ms CreateObjectMapping: 0.467200 ms MarkObjects: 4.802200 ms  DeleteObjects: 2.109300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path F:\UnityProjekt\gierka\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <aa1f86fad227490683863fb0d0f47a12>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.637 seconds
+Domain Reload Profiling: 1219ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (323ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (638ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (459ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6050 unused Assets / (4.2 MB). Loaded Objects now: 6922.
+Memory consumption went from 164.3 MB to 160.1 MB.
+Total: 6.958000 ms (FindLiveObjects: 0.636700 ms CreateObjectMapping: 0.396300 ms MarkObjects: 4.165500 ms  DeleteObjects: 1.758400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.587 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path F:\UnityProjekt\gierka\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <aa1f86fad227490683863fb0d0f47a12>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@68167b505d2b/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@68167b505d2b/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path F:\UnityProjekt\gierka\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <aa1f86fad227490683863fb0d0f47a12>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path F:\UnityProjekt\gierka\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <aa1f86fad227490683863fb0d0f47a12>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path F:\UnityProjekt\gierka\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <aa1f86fad227490683863fb0d0f47a12>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 1221ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6051 unused Assets / (4.0 MB). Loaded Objects now: 6926.
+Memory consumption went from 164.3 MB to 160.3 MB.
+Total: 7.156200 ms (FindLiveObjects: 0.640200 ms CreateObjectMapping: 0.417200 ms MarkObjects: 4.195300 ms  DeleteObjects: 1.902300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 410.933732 seconds.
+  path: Assets/TerrainData_4f2838ef-56ac-4166-8ff8-ca8a5ad42521.asset
+  artifactKey: Guid(6fa5636c8a9753b4f99d7064edbe90dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_4f2838ef-56ac-4166-8ff8-ca8a5ad42521.asset using Guid(6fa5636c8a9753b4f99d7064edbe90dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec7c13ada35f6ec3cab6f8db57f26e84') in 0.0368596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 826.235690 seconds.
+  path: Assets/PolyQuest_EvilVillage
+  artifactKey: Guid(68373e6773251f944a1391f2a17ea236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage using Guid(68373e6773251f944a1391f2a17ea236) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a8600bacaa20c2da7054bf61ea624f4') in 0.0005939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.550683 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh
+  artifactKey: Guid(58cb523d3b5d4a04ca069bffae917bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh using Guid(58cb523d3b5d4a04ca069bffae917bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '874f04c9f3bbc2b0aade4140c318a3de') in 0.0004379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090024 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/Cage.fbx
+  artifactKey: Guid(9144fa3bd1460534b9760052871cc804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/Cage.fbx using Guid(9144fa3bd1460534b9760052871cc804) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ec6b50e9da7989102ede76cf82f2926') in 0.3738281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/SpookyTree03.fbx
+  artifactKey: Guid(ab9ffe56977eb2940b50a65259589bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/SpookyTree03.fbx using Guid(ab9ffe56977eb2940b50a65259589bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5f629e7c0c164b9172b841432abb211') in 0.010246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/HouseWindow.fbx
+  artifactKey: Guid(6fce5bcb185cc6847937e2dbfd4a06ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/HouseWindow.fbx using Guid(6fce5bcb185cc6847937e2dbfd4a06ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d2564f95eb2525dd29a58e006b2ccca') in 0.0102343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/Door02.fbx
+  artifactKey: Guid(6193668a991ee2d409339b12547b894d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/Door02.fbx using Guid(6193668a991ee2d409339b12547b894d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb2f6397c5589c2c53a4cf124e7a1efe') in 0.0103579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/Door01.fbx
+  artifactKey: Guid(6889e9c5f880116469feae55b16bf8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/Door01.fbx using Guid(6889e9c5f880116469feae55b16bf8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34ad52894c7962a879ba529d8982ec25') in 0.0101816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/Stone.fbx
+  artifactKey: Guid(b879c6c24ca298046865e4c06040c76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/Stone.fbx using Guid(b879c6c24ca298046865e4c06040c76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bda807c91d69d5ff9b103d80b4ec6cc') in 0.0092235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/FloatingIsland02.fbx
+  artifactKey: Guid(9e336136d71627f40a67b48900381edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/FloatingIsland02.fbx using Guid(9e336136d71627f40a67b48900381edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f99ca3f5104de8bef59bf10114835880') in 0.0098017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/ChurchTower.fbx
+  artifactKey: Guid(e19df259931692d4b8fe5386d9486357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/ChurchTower.fbx using Guid(e19df259931692d4b8fe5386d9486357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91a85af4f33de79ea1345f1d3e70282a') in 0.0088711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/HouseLevel.fbx
+  artifactKey: Guid(6eb04e268e29b594fbd5108d8d5e2fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/HouseLevel.fbx using Guid(6eb04e268e29b594fbd5108d8d5e2fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89aca4158c749a57e990fba663e79333') in 0.0088808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/Gras03.fbx
+  artifactKey: Guid(af02e55bc32b49446bcff816a953dab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/Gras03.fbx using Guid(af02e55bc32b49446bcff816a953dab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03d4660a5466ffe18e9d614d24532612') in 0.0091641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/HouseBase.fbx
+  artifactKey: Guid(40d7444378d03164a8ca535523dfae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/HouseBase.fbx using Guid(40d7444378d03164a8ca535523dfae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '384924da53ed0cb71ee0d4b9ea6ceff2') in 0.0087872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/HouseLamp.fbx
+  artifactKey: Guid(1a243020f421a6e4b80c3a695bac0b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/HouseLamp.fbx using Guid(1a243020f421a6e4b80c3a695bac0b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46097624089f2cd6541db226226d3cb0') in 0.0093909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/FencePart.fbx
+  artifactKey: Guid(e30f367bac66aa546ac7a40c2e1cb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/FencePart.fbx using Guid(e30f367bac66aa546ac7a40c2e1cb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '464008565ca74f3b633ab8ec6346c0b9') in 0.0173248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/Fence.fbx
+  artifactKey: Guid(a8e6f1624e3c933498e3cc7f67c939a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/Fence.fbx using Guid(a8e6f1624e3c933498e3cc7f67c939a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '457b0c4a505a96c3f7ce822c55c09926') in 0.0227165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/Hall.fbx
+  artifactKey: Guid(5ae20ba66cf67b8459bb456caf57432e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/Hall.fbx using Guid(5ae20ba66cf67b8459bb456caf57432e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1aa1fcd9ab2c23037914b0d793b2a1e') in 0.0118629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolyQuest_EvilVillage/Mesh/SpookyTree02.fbx
+  artifactKey: Guid(6d3b5c4254f0f154aaa480049810e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Mesh/SpookyTree02.fbx using Guid(6d3b5c4254f0f154aaa480049810e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ba48032b8919f0c0c0ef1cd1702c20d') in 0.0095107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.250690 seconds.
+  path: Assets/PolyQuest_EvilVillage/Materials
+  artifactKey: Guid(29b4405556d5aa444bb76b5646dd6b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Materials using Guid(29b4405556d5aa444bb76b5646dd6b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78348816a18b00f799d58a5958c07986') in 0.0005113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.726963 seconds.
+  path: Assets/PolyQuest_EvilVillage/Materials/Gras.mat
+  artifactKey: Guid(72af341e82127f74a9dc355adf26be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Materials/Gras.mat using Guid(72af341e82127f74a9dc355adf26be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd123000540cb211262c09bbc226c238b') in 0.0133789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolyQuest_EvilVillage/Materials/Wood.mat
+  artifactKey: Guid(4cd741e39fd57a448a38a7fe24c6798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Materials/Wood.mat using Guid(4cd741e39fd57a448a38a7fe24c6798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '638007a9e9157a1f728e3b1b9f938238') in 0.0053468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolyQuest_EvilVillage/Materials/Sky.mat
+  artifactKey: Guid(5ed546a0b84800646959e53f391ae8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Materials/Sky.mat using Guid(5ed546a0b84800646959e53f391ae8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f8203f40bd0d79c43d12748e081edbc') in 0.0664117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolyQuest_EvilVillage/Materials/Stone.mat
+  artifactKey: Guid(7d483d9c4f822f540a57f1913dd90e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Materials/Stone.mat using Guid(7d483d9c4f822f540a57f1913dd90e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8743ef2f9f616827af64be41d1abf61') in 0.0056246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.734078 seconds.
+  path: Assets/PolyQuest_EvilVillage/Scenes
+  artifactKey: Guid(178acbd50ab09a644b49305e1dedbc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Scenes using Guid(178acbd50ab09a644b49305e1dedbc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a27c67eed9d8ad09bc771d5f771ef9ca') in 0.0004639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.479219 seconds.
+  path: Assets/PolyQuest_EvilVillage/Scripts
+  artifactKey: Guid(241fb8c9425337b40a090be004c5eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Scripts using Guid(241fb8c9425337b40a090be004c5eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90664fb4e25f982b34da29da54ba57c7') in 0.0004277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.692769 seconds.
+  path: Assets/PolyQuest_EvilVillage/Prefabs
+  artifactKey: Guid(9481ca903b4d2a24dbc9fed4406c933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Prefabs using Guid(9481ca903b4d2a24dbc9fed4406c933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab7e8a16b12726d4c1a2ee7756811782') in 0.0004712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051419 seconds.
+  path: Assets/PolyQuest_EvilVillage/Prefabs/Cage.prefab
+  artifactKey: Guid(70ffcf3353666524084f310ea70d161b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Prefabs/Cage.prefab using Guid(70ffcf3353666524084f310ea70d161b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4821b7c7733064ed9d9594fed6afae01') in 0.0077404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolyQuest_EvilVillage/Prefabs/SpookyTree03.prefab
+  artifactKey: Guid(745639e686de46548b432ea8d7c57bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Prefabs/SpookyTree03.prefab using Guid(745639e686de46548b432ea8d7c57bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de5e246ca2459e7aa4074be1a2718d1d') in 0.007225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolyQuest_EvilVillage/Prefabs/SpookyTree02.prefab
+  artifactKey: Guid(c8c2d377e07ffc34fa908c061682a43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Prefabs/SpookyTree02.prefab using Guid(c8c2d377e07ffc34fa908c061682a43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeaf40a8aa52750926807a0a1cbda5b5') in 0.0074501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolyQuest_EvilVillage/Prefabs/Petrus.prefab
+  artifactKey: Guid(b38199984419e3b4295aa27c48837d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Prefabs/Petrus.prefab using Guid(b38199984419e3b4295aa27c48837d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12463da005cfd527177fcb0d03b59807') in 0.0064458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolyQuest_EvilVillage/Prefabs/FloatingIsland04.prefab
+  artifactKey: Guid(2bfff9254800b2c499cd50fc0cb531e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Prefabs/FloatingIsland04.prefab using Guid(2bfff9254800b2c499cd50fc0cb531e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4be418e565167dbd80703772076873d5') in 0.0072108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolyQuest_EvilVillage/Prefabs/FloatingIsland01.prefab
+  artifactKey: Guid(9b7b8bdd3dc25ce49902063760655518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Prefabs/FloatingIsland01.prefab using Guid(9b7b8bdd3dc25ce49902063760655518) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1f15efc6747e0214e04fd6500a26f54') in 0.0073932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolyQuest_EvilVillage/Prefabs/Grave02.prefab
+  artifactKey: Guid(917dd2a2750faed4d9276de63066a2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Prefabs/Grave02.prefab using Guid(917dd2a2750faed4d9276de63066a2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33ad31ac28e328eab7a1ec84903127af') in 0.0064423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.539782 seconds.
+  path: Assets/PolyQuest_EvilVillage/Scenes/EvilVillage
+  artifactKey: Guid(7e9f604f6aef5794f9466bbb5efa9988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Scenes/EvilVillage using Guid(7e9f604f6aef5794f9466bbb5efa9988) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfd58745ee8d15f7b445f4815e25f5ae') in 0.000511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.108012 seconds.
+  path: Assets/PolyQuest_EvilVillage/Scenes/EvilVillage/LightingData.asset
+  artifactKey: Guid(7a00f508127f12f488dda67d6631e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyQuest_EvilVillage/Scenes/EvilVillage/LightingData.asset using Guid(7a00f508127f12f488dda67d6631e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: 'c332efd10f9fa0370857bbfc6fca0507') in 0.0012556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6043 unused Assets / (4.0 MB). Loaded Objects now: 7066.
+Memory consumption went from 173.4 MB to 169.4 MB.
+Total: 7.937200 ms (FindLiveObjects: 0.563500 ms CreateObjectMapping: 0.309600 ms MarkObjects: 5.534800 ms  DeleteObjects: 1.528600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.612 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path F:\UnityProjekt\gierka\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <aa1f86fad227490683863fb0d0f47a12>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@68167b505d2b/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@68167b505d2b/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 1230ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6050 unused Assets / (3.9 MB). Loaded Objects now: 6948.
+Memory consumption went from 169.7 MB to 165.8 MB.
+Total: 6.062200 ms (FindLiveObjects: 0.579700 ms CreateObjectMapping: 0.333200 ms MarkObjects: 3.703900 ms  DeleteObjects: 1.444700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 870.014766 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low
+  artifactKey: Guid(62d26e47d710ae44980c6c79e1254329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low using Guid(62d26e47d710ae44980c6c79e1254329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd422010b4cc43d65f8453b13dc84cdce') in 0.0089382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028932 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_2et_01_low.prefab
+  artifactKey: Guid(f2ac51e00e24ec74295d01a4e5752ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_2et_01_low.prefab using Guid(f2ac51e00e24ec74295d01a4e5752ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd875caf40eb04d8396bb17908f8ec5e9') in 0.3731519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_06_low.prefab
+  artifactKey: Guid(c410004c513d4f443a09614a36f7208d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_06_low.prefab using Guid(c410004c513d4f443a09614a36f7208d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c82647caddea2578bd630bc4a9634ce') in 0.0101438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_02b_low.prefab
+  artifactKey: Guid(a23dbbdd521b5e341844b245d7bfc874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_02b_low.prefab using Guid(a23dbbdd521b5e341844b245d7bfc874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e377dd5a40440b0c33b16e7afa18a6d4') in 0.0102779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_01a_low.prefab
+  artifactKey: Guid(aa1c793da98f72f46acfef95df976cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_01a_low.prefab using Guid(aa1c793da98f72f46acfef95df976cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3978143865905922f2cdac6dac2b442') in 0.0107276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_4et_01_low.prefab
+  artifactKey: Guid(8dca6652d4a69d04b9cecde06ac6ddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_4et_01_low.prefab using Guid(8dca6652d4a69d04b9cecde06ac6ddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17066c9ae4a048fac582bdda7297587a') in 0.0090358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03a_low.prefab
+  artifactKey: Guid(5a760ff159dab1f45a917cb73f9ceb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03a_low.prefab using Guid(5a760ff159dab1f45a917cb73f9ceb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26d043972d2fd8851b58a376ad17fce5') in 0.009046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03e_low.prefab
+  artifactKey: Guid(5b4342e71d249de42b35e74c013bbe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03e_low.prefab using Guid(5b4342e71d249de42b35e74c013bbe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6442fa038baf439af9d6a72a96b4ca2') in 0.009028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_05_low.prefab
+  artifactKey: Guid(393bb1456e9f83948ba1f8fa7a60a21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_05_low.prefab using Guid(393bb1456e9f83948ba1f8fa7a60a21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2174c9b46fecec509af28d5a291f60f5') in 0.0089517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_4et_01a_low.prefab
+  artifactKey: Guid(3954b4db11e9be84f9f73d87dead528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_4et_01a_low.prefab using Guid(3954b4db11e9be84f9f73d87dead528f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5965a216505fca76161485eac532b6d') in 0.0093811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_03_low.prefab
+  artifactKey: Guid(10b693990d3466444be14f6cf80a8aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_03_low.prefab using Guid(10b693990d3466444be14f6cf80a8aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6239615f08734968684c4bb8ef99dd90') in 0.0097776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_01b_low.prefab
+  artifactKey: Guid(fe42eeefc6f114c4fa3284d5c7a7b6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_01b_low.prefab using Guid(fe42eeefc6f114c4fa3284d5c7a7b6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c63ff41a6cab67697052ff78d2aa1bc') in 0.0081418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_02a_low.prefab
+  artifactKey: Guid(3807aeece2d202d4082fb6a74e59ee6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_02a_low.prefab using Guid(3807aeece2d202d4082fb6a74e59ee6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '064f745ebc7eab3b2848d9e9bc869c2c') in 0.0084676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_03a_low.prefab
+  artifactKey: Guid(e9c22aa81b53e4c4496d78efbff45e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_9et_03a_low.prefab using Guid(e9c22aa81b53e4c4496d78efbff45e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '335461ca9593aa7d8efecadce444d743') in 0.0091691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03d_low.prefab
+  artifactKey: Guid(2d8443e65eb7c274aae127e742ee00d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/prefabs/buildings_low/rus_build_5et_03d_low.prefab using Guid(2d8443e65eb7c274aae127e742ee00d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c46876a34e75171c1723655a7781c41f') in 0.009745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

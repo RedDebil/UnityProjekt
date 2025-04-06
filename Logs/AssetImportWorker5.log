@@ -1,0 +1,580 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.42f1 (feb9a7235030) revision 16693671'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'pl' Physical Memory: 7957 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity2\6000.0.42f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/UnityZadania/gierka
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+51084
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/UnityZadania/gierka
+D:/UnityZadania/gierka
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19288]  Target information:
+
+Player connection [19288]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 4140614344 [EditorId] 4140614344 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L23JCS9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19288] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19288] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 8.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.42f1 (feb9a7235030)
+[Subsystems] Discovering subsystems at path D:/Unity2/6000.0.42f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityZadania/gierka/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     3978 MB
+    Driver:   31.0.101.4502
+Initialize mono
+Mono path[0] = 'D:/Unity2/6000.0.42f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity2/6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity2/6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity2/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006549 seconds.
+- Loaded All Assemblies, in  3.440 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.145 seconds
+Domain Reload Profiling: 4588ms
+	BeginReloadAssembly (1557ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (191ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (157ms)
+	LoadAllAssembliesAndSetupDomain (1491ms)
+		LoadAssemblies (1550ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1481ms)
+			TypeCache.Refresh (1476ms)
+				TypeCache.ScanAssembly (1387ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1149ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (896ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (76ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (208ms)
+			ProcessInitializeOnLoadAttributes (454ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.916 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.783 seconds
+Domain Reload Profiling: 3695ms
+	BeginReloadAssembly (334ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1401ms)
+		LoadAssemblies (955ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (659ms)
+			TypeCache.Refresh (509ms)
+				TypeCache.ScanAssembly (453ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1784ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (191ms)
+			ProcessInitializeOnLoadAttributes (1063ms)
+			ProcessInitializeOnLoadMethodAttributes (198ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6054 unused Assets / (4.5 MB). Loaded Objects now: 6767.
+Memory consumption went from 159.7 MB to 155.2 MB.
+Total: 22.361100 ms (FindLiveObjects: 1.089200 ms CreateObjectMapping: 1.873300 ms MarkObjects: 13.799400 ms  DeleteObjects: 5.592400 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.458 seconds
+Refreshing native plugins compatible for Editor in 6.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.807 seconds
+Domain Reload Profiling: 13182ms
+	BeginReloadAssembly (1240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (207ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (387ms)
+	RebuildCommonClasses (138ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (3865ms)
+		LoadAssemblies (1998ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1288ms)
+			TypeCache.Refresh (46ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (931ms)
+			ResolveRequiredComponents (134ms)
+	FinalizeReload (7810ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (859ms)
+			ProcessInitializeOnLoadAttributes (3772ms)
+			ProcessInitializeOnLoadMethodAttributes (581ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (82ms)
+Refreshing native plugins compatible for Editor in 5.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6050 unused Assets / (4.3 MB). Loaded Objects now: 6783.
+Memory consumption went from 139.6 MB to 135.3 MB.
+Total: 35.436100 ms (FindLiveObjects: 5.334700 ms CreateObjectMapping: 1.462100 ms MarkObjects: 19.644500 ms  DeleteObjects: 8.984900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 126869.864694 seconds.
+  path: Assets/teksturki/NewLayer 1.terrainlayer
+  artifactKey: Guid(c2a6f22bebdbda14caffadfcb0c4626f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/teksturki/NewLayer 1.terrainlayer using Guid(c2a6f22bebdbda14caffadfcb0c4626f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfe757a3325baea7d07ee2ef57753fe9') in 1.9912911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.152666 seconds.
+  path: Assets/Rusty Vehicles/Rusty_Vehicles.fbm
+  artifactKey: Guid(d1cb6dcfde107cc4a9b3cb6145381259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rusty Vehicles/Rusty_Vehicles.fbm using Guid(d1cb6dcfde107cc4a9b3cb6145381259) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afdb5a93ad27aae2007ab43e9637c8e9') in 0.0039748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010703 seconds.
+  path: Assets/Rusty Vehicles/Rusty_Vehicles.fbm/1K_Hillbilly_Spec.tif
+  artifactKey: Guid(79fb88de543f605488f2ae6a98602d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rusty Vehicles/Rusty_Vehicles.fbm/1K_Hillbilly_Spec.tif using Guid(79fb88de543f605488f2ae6a98602d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e52d025d5dd5bb931a4ad7f7234daff') in 0.2323832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Rusty Vehicles/Rusty_Vehicles.fbm/1K_Hillbilly_TXTR.tif
+  artifactKey: Guid(0a912b5271cf76c41b885e92c2593075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rusty Vehicles/Rusty_Vehicles.fbm/1K_Hillbilly_TXTR.tif using Guid(0a912b5271cf76c41b885e92c2593075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c944cffc250cdc0b29519a397cfac723') in 0.0464419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Rusty Vehicles/Rusty_Vehicles.fbm/1K_Vehicle_TXTR.tif
+  artifactKey: Guid(6044294e237e62b45b687e13403d2f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rusty Vehicles/Rusty_Vehicles.fbm/1K_Vehicle_TXTR.tif using Guid(6044294e237e62b45b687e13403d2f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82a8ab04906a48e21cdd8ed006991bce') in 0.0598805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Rusty Vehicles/Rusty_Vehicles.fbm/1K_Vehicle_Spec.tif
+  artifactKey: Guid(5f4dfba86571d7e489e2e2d827bfd871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rusty Vehicles/Rusty_Vehicles.fbm/1K_Vehicle_Spec.tif using Guid(5f4dfba86571d7e489e2e2d827bfd871) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7d3bbd3a5399f75577217d8fa085826') in 0.076398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.698420 seconds.
+  path: Assets/Rusty Vehicles/Materials/1K_Vehicle_TXTR.mat
+  artifactKey: Guid(1af71d154ebca2f428cc3fddd7597d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rusty Vehicles/Materials/1K_Vehicle_TXTR.mat using Guid(1af71d154ebca2f428cc3fddd7597d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd59a701a6c51f5dcc7fa94469703561') in 2.714565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.580857 seconds.
+  path: Assets/Rusty Vehicles/Textures/1K_Hillbilly_TXTR+Spec.tif
+  artifactKey: Guid(2b91a5df8415f2745a4d7f2c2ef1b71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rusty Vehicles/Textures/1K_Hillbilly_TXTR+Spec.tif using Guid(2b91a5df8415f2745a4d7f2c2ef1b71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97166639548e66def9918b385108107c') in 0.125932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Rusty Vehicles/Textures/1K_Vehicle_TXTR.tif
+  artifactKey: Guid(da8a5221c61706b4eb76a4113b848085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rusty Vehicles/Textures/1K_Vehicle_TXTR.tif using Guid(da8a5221c61706b4eb76a4113b848085) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '079278b5908d903aa7cbb46dcac4aefb') in 0.0409448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Rusty Vehicles/Textures/1K_Vehicle_Spec.tif
+  artifactKey: Guid(310c1dce42aefbe4ca59173c4bcb4b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rusty Vehicles/Textures/1K_Vehicle_Spec.tif using Guid(310c1dce42aefbe4ca59173c4bcb4b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84ba51d1521d704a7aa5dfb61ede0451') in 0.0840233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 13.796 seconds
+Refreshing native plugins compatible for Editor in 6.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.444 seconds
+Domain Reload Profiling: 16275ms
+	BeginReloadAssembly (7320ms)
+		ExecutionOrderSort (90ms)
+		DisableScriptedObjects (2146ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (13ms)
+		CreateAndSetChildDomain (3039ms)
+	RebuildCommonClasses (153ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (216ms)
+	LoadAllAssembliesAndSetupDomain (6095ms)
+		LoadAssemblies (5584ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1223ms)
+			TypeCache.Refresh (61ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1065ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (2445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1692ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (359ms)
+			ProcessInitializeOnLoadAttributes (1067ms)
+			ProcessInitializeOnLoadMethodAttributes (228ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 11.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6051 unused Assets / (3.5 MB). Loaded Objects now: 6857.
+Memory consumption went from 148.3 MB to 144.9 MB.
+Total: 62.313300 ms (FindLiveObjects: 4.226700 ms CreateObjectMapping: 6.202000 ms MarkObjects: 38.587600 ms  DeleteObjects: 13.289500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.803 seconds
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\UnityZadania\gierka\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <13c0c460649d4ce49f991e2c222fa635>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <aa1f86fad227490683863fb0d0f47a12>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@68167b505d2b/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@68167b505d2b/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.458 seconds
+Domain Reload Profiling: 14397ms
+	BeginReloadAssembly (2280ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (84ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (851ms)
+	RebuildCommonClasses (152ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (306ms)
+	LoadAllAssembliesAndSetupDomain (5149ms)
+		LoadAssemblies (4277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1811ms)
+			TypeCache.Refresh (58ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1592ms)
+			ResolveRequiredComponents (98ms)
+	FinalizeReload (6462ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5093ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (550ms)
+			ProcessInitializeOnLoadAttributes (3716ms)
+			ProcessInitializeOnLoadMethodAttributes (776ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (224ms)
+Refreshing native plugins compatible for Editor in 7.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6051 unused Assets / (4.1 MB). Loaded Objects now: 6860.
+Memory consumption went from 148.2 MB to 144.1 MB.
+Total: 49.278900 ms (FindLiveObjects: 3.739700 ms CreateObjectMapping: 1.968200 ms MarkObjects: 32.576300 ms  DeleteObjects: 10.985600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.421 seconds
+Refreshing native plugins compatible for Editor in 4.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.382 seconds
+Domain Reload Profiling: 10808ms
+	BeginReloadAssembly (801ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (196ms)
+	RebuildCommonClasses (248ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (2189ms)
+		LoadAssemblies (1983ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (687ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (608ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (7384ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5865ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (59ms)
+			BeforeProcessingInitializeOnLoad (1106ms)
+			ProcessInitializeOnLoadAttributes (3851ms)
+			ProcessInitializeOnLoadMethodAttributes (811ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (3ms)
+		AwakeInstancesAfterBackupRestoration (158ms)
+Refreshing native plugins compatible for Editor in 4.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6051 unused Assets / (4.3 MB). Loaded Objects now: 6863.
+Memory consumption went from 148.2 MB to 143.9 MB.
+Total: 37.784700 ms (FindLiveObjects: 2.900000 ms CreateObjectMapping: 3.756200 ms MarkObjects: 20.924800 ms  DeleteObjects: 10.196600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3534.198590 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faab6cc3a0eb7141fe31e2e91fd81ee8') in 1.836002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001861 seconds.
+  path: Assets/StreetBench/streetbench2.fbx
+  artifactKey: Guid(50d31de7174e1994fae4a37dc92c9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetBench/streetbench2.fbx using Guid(50d31de7174e1994fae4a37dc92c9815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9581160e289df3e60ffe4fbedbf6e2a0') in 2.8606162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 476.771965 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Prefab/P_Brick_Fence_01.prefab
+  artifactKey: Guid(736e9fa1dfe2bfa4f90f123ca8612053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Prefab/P_Brick_Fence_01.prefab using Guid(736e9fa1dfe2bfa4f90f123ca8612053) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5869e1d5fa983c22a9c91f9ee7ca56e') in 1.5320747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.825196 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_01.FBX
+  artifactKey: Guid(53d76df54bb1e3040a469750be9670a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_01.FBX using Guid(53d76df54bb1e3040a469750be9670a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f8bba69a11ccd4ebc4bfc5b942505cb') in 0.200825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_02.FBX
+  artifactKey: Guid(75564dabe6a61a54e98fc29a89190176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_02.FBX using Guid(75564dabe6a61a54e98fc29a89190176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '261d360bc6345f98b0ba1ff731d447c8') in 0.0913484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_02b.FBX
+  artifactKey: Guid(f7138d9be778db347a419d5234a5a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_02b.FBX using Guid(f7138d9be778db347a419d5234a5a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '754149449dea8ea2165bd11723184bc8') in 0.0922219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_03.obj
+  artifactKey: Guid(93f8f90b2b57c3f4980bafa841d4f8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_03.obj using Guid(93f8f90b2b57c3f4980bafa841d4f8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fb167b8d0b19d3e3a34c59ab2b2f0c5') in 0.0625444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_03b.obj
+  artifactKey: Guid(70a7cf4834afe834fb4743a6394a234b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_03b.obj using Guid(70a7cf4834afe834fb4743a6394a234b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '956ffe89e1fa811a68befcbdacea2221') in 0.0679027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_Column_01.obj
+  artifactKey: Guid(e5fcb82022153174186076fd71c171c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_Column_01.obj using Guid(e5fcb82022153174186076fd71c171c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '843af5ebeb6b0a4e4c4094f2bdb4524d') in 0.0630109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_01b.FBX
+  artifactKey: Guid(f5d4e99060e5e0b4e898c458761b32fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_Fence_01b.FBX using Guid(f5d4e99060e5e0b4e898c458761b32fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75b4633f0877553fdc0662ce947d8a53') in 0.1982828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

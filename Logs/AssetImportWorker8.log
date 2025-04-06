@@ -1,0 +1,343 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.42f1 (feb9a7235030) revision 16693671'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'pl' Physical Memory: 7957 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity2\6000.0.42f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/UnityZadania/gierka
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+51084
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/UnityZadania/gierka
+D:/UnityZadania/gierka
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1856]  Target information:
+
+Player connection [1856]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 1641194169 [EditorId] 1641194169 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L23JCS9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1856] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1856] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 8.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.42f1 (feb9a7235030)
+[Subsystems] Discovering subsystems at path D:/Unity2/6000.0.42f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityZadania/gierka/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     3978 MB
+    Driver:   31.0.101.4502
+Initialize mono
+Mono path[0] = 'D:/Unity2/6000.0.42f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity2/6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity2/6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity2/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003545 seconds.
+- Loaded All Assemblies, in  1.071 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.038 seconds
+Domain Reload Profiling: 2109ms
+	BeginReloadAssembly (631ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (252ms)
+		LoadAssemblies (625ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (202ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1039ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (950ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (401ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 33.559 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.995 seconds
+Domain Reload Profiling: 32074ms
+	BeginReloadAssembly (880ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (724ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (30100ms)
+		LoadAssemblies (29831ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (369ms)
+			TypeCache.Refresh (287ms)
+				TypeCache.ScanAssembly (262ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (995ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (767ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (552ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6054 unused Assets / (4.6 MB). Loaded Objects now: 6768.
+Memory consumption went from 160.2 MB to 155.6 MB.
+Total: 9.124300 ms (FindLiveObjects: 0.647600 ms CreateObjectMapping: 0.571800 ms MarkObjects: 5.245600 ms  DeleteObjects: 2.657500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 131031.101718 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models
+  artifactKey: Guid(22cf75ccbb34e3c4d9b35c45e8bc99c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models using Guid(22cf75ccbb34e3c4d9b35c45e8bc99c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3674984db3477b07f7349cb485047535') in 0.0135322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021149 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_BigGate_01.FBX
+  artifactKey: Guid(1031352e06449434ab7c3ba79eee9918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/SM_Brick_BigGate_01.FBX using Guid(1031352e06449434ab7c3ba79eee9918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4901157af4ab92f2e519aa696c606dcb') in 1.1885634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.210136 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Textures
+  artifactKey: Guid(e9aeaf5462225a747a1af30cb8c8548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Textures using Guid(e9aeaf5462225a747a1af30cb8c8548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36ead882264a4a8631264f37cd894548') in 0.0022596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022190 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_BigGate_01.TGA
+  artifactKey: Guid(2dbbbbac9987ae049873103394c671fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_BigGate_01.TGA using Guid(2dbbbbac9987ae049873103394c671fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c99f644394c029e3e5fa4d64d86b8e8b') in 0.0546808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_Fence_01_Grill_N.TGA
+  artifactKey: Guid(6fbb09e7e81f8ca448caab4c9f55f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_Fence_01_Grill_N.TGA using Guid(6fbb09e7e81f8ca448caab4c9f55f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d90987e66b37db50a47ef86cffc80df') in 0.0383851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_fence_03_N.tga
+  artifactKey: Guid(2e3a38629e4d5d94289a519535ea73b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_fence_03_N.tga using Guid(2e3a38629e4d5d94289a519535ea73b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36df2edcda511ba3a747a764eff335e8') in 0.044983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_Fence_02B_N.tga
+  artifactKey: Guid(a3771ab128e26894f832c7fadc0900b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_Fence_02B_N.tga using Guid(a3771ab128e26894f832c7fadc0900b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86e76636a0500f509ff541265aad49c7') in 0.0455078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_fence_03.TGA
+  artifactKey: Guid(64074f0267b4b5e41b88ef0e4d2eb280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_fence_03.TGA using Guid(64074f0267b4b5e41b88ef0e4d2eb280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e54a217e69324611b40750ee841517ba') in 0.0374482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_Fence_02B.TGA
+  artifactKey: Guid(10ed0014f0bba5c42b5dfde630c634a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_Fence_02B.TGA using Guid(10ed0014f0bba5c42b5dfde630c634a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a781974ee7cc07c855cece8ccb165306') in 0.0329038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_BigGate_02_N.tga
+  artifactKey: Guid(b2ff7aef75536ec438d11c804cf4ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_BigGate_02_N.tga using Guid(b2ff7aef75536ec438d11c804cf4ffe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24ba6aac98cfc04112e96c1f45c65d38') in 0.0360611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_BigGate_03.TGA
+  artifactKey: Guid(53fc560662499db4c985c33cc1d72945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Textures/T_Brick_BigGate_03.TGA using Guid(53fc560662499db4c985c33cc1d72945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa52aa39d3f6d86d96da4a9ace0b10c2') in 0.0352117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.877397 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Demo Brick_FenceSettings.lighting
+  artifactKey: Guid(e4811b5f479f9314686fa98c1e27da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Demo Brick_FenceSettings.lighting using Guid(e4811b5f479f9314686fa98c1e27da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f6341f5464532856a029693fc0a5695') in 0.0038337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.381783 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/Materials
+  artifactKey: Guid(07953379f160cde4babb745b23fba91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/Materials using Guid(07953379f160cde4babb745b23fba91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd04162c12cdb7ff82c9eb4bb967d551b') in 0.0012662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020673 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/Materials/Mat_Brick_BigGate_01a.mat
+  artifactKey: Guid(2924b42a23dafd642af049b861dcf841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/Materials/Mat_Brick_BigGate_01a.mat using Guid(2924b42a23dafd642af049b861dcf841) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c60fd9905ba1630dd50c58a5f163685') in 0.1328976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/Materials/Mat_Brick_BigGate_03.mat
+  artifactKey: Guid(c7225c96adac32c438ea990062f787d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/Materials/Mat_Brick_BigGate_03.mat using Guid(c7225c96adac32c438ea990062f787d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '702d7a17b8e4078624c56cd6f15a65bb') in 0.02884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/Materials/Mat_Brick_Fence_01Grill.mat
+  artifactKey: Guid(ee61a593ddfca0d41811b813ac2d6f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/Materials/Mat_Brick_Fence_01Grill.mat using Guid(ee61a593ddfca0d41811b813ac2d6f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08efc89273e228f1ec0d01d4d287622e') in 0.0223539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/Materials/Mat_Brick_fence01_D.mat
+  artifactKey: Guid(ec3e3c392bb65ed4eb0ad2585235a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/Materials/Mat_Brick_fence01_D.mat using Guid(ec3e3c392bb65ed4eb0ad2585235a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5492b7e5fab5df5d3127a4e8f79f600b') in 0.0291754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/Materials/Mat_Brick_fence_03.mat
+  artifactKey: Guid(4fafb8d6b3b36774abf2b2b93f29e09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/Materials/Mat_Brick_fence_03.mat using Guid(4fafb8d6b3b36774abf2b2b93f29e09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0427868ee6081b3fe8c919a10e560473') in 0.0354992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Dnk_Dev/Brick_Fence/Models/Materials/Mat_Brick_Fence_01.mat
+  artifactKey: Guid(10c20b41bd5e4f4449afdf1a254ed649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/Brick_Fence/Models/Materials/Mat_Brick_Fence_01.mat using Guid(10c20b41bd5e4f4449afdf1a254ed649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4006e5278ae28ce05d8e18ac307adcf0') in 0.030377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
