@@ -119,6 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1001 &2124161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4407,6 +4408,8 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.1057681, y: 0.55274767, z: 0.41492015}
   m_Center: {x: 0.010577249, y: 0.25585532, z: -0.044624377}
+=======
+>>>>>>> dd55213e4e09e665fa73002a87d6a03e8edc17c5
 --- !u!1 &1464290073
 GameObject:
   m_ObjectHideFlags: 0
@@ -4418,8 +4421,11 @@ GameObject:
   - component: {fileID: 1464290076}
   - component: {fileID: 1464290075}
   - component: {fileID: 1464290074}
+<<<<<<< HEAD
   - component: {fileID: 1464290077}
   - component: {fileID: 1464290078}
+=======
+>>>>>>> dd55213e4e09e665fa73002a87d6a03e8edc17c5
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4494,6 +4500,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464290073}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
   m_LocalPosition: {x: 195.2, y: 65.8, z: 165.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -5339,11 +5346,16 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 553.3482, y: 262.05966, z: 187.2831}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+>>>>>>> dd55213e4e09e665fa73002a87d6a03e8edc17c5
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &1862521177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5417,6 +5429,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d8443e65eb7c274aae127e742ee00d9, type: 3}
+=======
+>>>>>>> dd55213e4e09e665fa73002a87d6a03e8edc17c5
 --- !u!1 &1870363291
 GameObject:
   m_ObjectHideFlags: 0
@@ -5427,7 +5441,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1870363293}
   - component: {fileID: 1870363292}
+<<<<<<< HEAD
   - component: {fileID: 1870363294}
+=======
+>>>>>>> dd55213e4e09e665fa73002a87d6a03e8edc17c5
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -5515,6 +5532,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< HEAD
 --- !u!114 &1870363294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6863,10 +6881,13 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+>>>>>>> dd55213e4e09e665fa73002a87d6a03e8edc17c5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+<<<<<<< HEAD
   - {fileID: 1870363293}
   - {fileID: 1464290076}
   - {fileID: 672136615}
@@ -6928,3 +6949,7 @@ SceneRoots:
   - {fileID: 1817378961}
   - {fileID: 383808791}
   - {fileID: 1110076278}
+=======
+  - {fileID: 1464290076}
+  - {fileID: 1870363293}
+>>>>>>> dd55213e4e09e665fa73002a87d6a03e8edc17c5
